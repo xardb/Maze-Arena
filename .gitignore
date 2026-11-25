@@ -1,0 +1,26 @@
+# Clojure
+.cpcache/
+.clj-kondo/
+.lsp/
+target/
+.lein-*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Prolog
+*.qlf
+
+# IDE
+.idea/
+.vscode/
+
+# Временные файлы
+*.log
+*.swp
+.DS_Store
+.env
