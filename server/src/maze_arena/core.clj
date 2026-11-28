@@ -1,4 +1,5 @@
-(ns maze-arena.core)
+(ns maze-arena.core
+  (:require [maze-arena.network :as network]))
 
 (defn -main []
-  (println "Maze Arena server initialized"))
+  (network/start-server 5000))
